@@ -1,19 +1,20 @@
-<template>
+<template lang="">
   <div>
-    <Navbar />
-    <main>
-      <section>
-        <h1>This is home page!</h1>
-      </section>
-    </main>
+      <Navbar />
+    <section>
+      <h1>About page</h1>
+    </section>
   </div>
 </template>
-
 <script>
 import Navbar from '@/components/Navbar.vue'
 export default {
+  // name: 'IndexPage',
   components: {
     Navbar
   }
 }
 </script>
+<style lang="">
+  
+</style>
