@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=b9XvKwQeLXE&list=PLZz-Gt4dd-LTeACXe7zLus9Bm_xlNA
   - Розширює функціонал вью для сервер сайд рендерінгу.
   - Допомогає індексуванню застосунку вью для роботів сео
 
+  - File nuxt.config.js - describe main html file
+
 01 Installing - 01:00 --------------------------------------------------------------------------------------------------
 
   https://nuxtjs.org/docs/get-started/installation
@@ -18,4 +20,12 @@ https://www.youtube.com/watch?v=b9XvKwQeLXE&list=PLZz-Gt4dd-LTeACXe7zLus9Bm_xlNA
 
   - yarn dev
 
-02 
+03 Lesson 3 - Bootstrap and markup ----------------------------------------------------------------------------------------
+
+  - yarn add bootstrap
+  - Add '@/node_modules/bootstrap/dist/css/bootstrap.min.css' in nuxt.config.js
+  - Add Navbar component
+
+04 Lesson - Routing ------------------------------------------------------------------------------------------------------------------------
+
+  - 
