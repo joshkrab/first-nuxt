@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=b9XvKwQeLXE&list=PLZz-Gt4dd-LTeACXe7zLus9Bm_xlNAqin
+
+00 Theory -------------------------------------------------------------------------------------------------------
+
+  - Розширює функціонал вью для сервер сайд рендерінгу.
+  - Допомогає індексуванню застосунку вью для роботів сео
+
+01 Installing - 01:00 --------------------------------------------------------------------------------------------------
+
+  https://nuxtjs.org/docs/get-started/installation
+
+  - npm i -g create-nuxt-app
+  - create-nuxt-app first-nuxt 
+
+  - yarn add cross-env
+  - Edit scripts to:
+  "dev": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider\" nuxt",
+
+  - yarn dev
+
+02 
