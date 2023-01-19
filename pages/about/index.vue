@@ -1,6 +1,6 @@
-<template lang="">
+<template>
   <div>
-      <Navbar />
+    <Navbar />
     <section>
       <h1>About page</h1>
     </section>
@@ -15,6 +15,6 @@ export default {
   }
 }
 </script>
-<style lang="">
-  
+<style>
+
 </style>
