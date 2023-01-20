@@ -43,3 +43,22 @@ https://www.youtube.com/watch?v=b9XvKwQeLXE&list=PLZz-Gt4dd-LTeACXe7zLus9Bm_xlNA
   - Edit users page
   - Create "users" folder in "pages" folder
   - Add file _id.vue and create validate method there
+  - _id - dinamic parameter
+  - Then we can see it in system validate $route.params.id
+
+  - Validate method accepts the context object, we get the parameters from the context object
+  validate ({ params }) - validates entry to the page (if id it's number)
+
+  - We can see this parameter in console and then in terminal: {id: 3}
+  - If we refresh the page, we can see this console in terminal first, because it's server side rendering
+
+06 Links and Errors ---------------------------------------------------------------
+
+  - In element nuxt-link we can add directive no-prefetch for lazy loading page
+
+  - Create custom layout for error page:
+  - In layouts folder create error.vue
+
+07 Layouts ------------------------------------------------------------------------
+
+  - Create login page

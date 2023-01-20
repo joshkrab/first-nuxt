@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <main>
       <section>
         <h1>This is home page!</h1>
@@ -10,10 +9,7 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
 export default {
-  components: {
-    Navbar
-  }
+  components: {}
 }
 </script>

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <section>
       <h1>Users page</h1>
       <ul>
@@ -13,10 +12,8 @@
 </template>
 
 <script lang="js">
-import Navbar from '@/components/Navbar.vue'
 export default {
   components: {
-    Navbar
   },
   data: () => ({
     users: [
