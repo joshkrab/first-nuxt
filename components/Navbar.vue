@@ -20,6 +20,10 @@
               <nuxt-link active-class="active" class="nav-link" to="/about">About</nuxt-link>
             </li>
 
+            <li class="nav-item">
+              <nuxt-link active-class="active" class="nav-link" to="/login">Login</nuxt-link>
+            </li>
+
           </ul>
 
         </div>
