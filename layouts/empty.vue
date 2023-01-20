@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-
+    <nuxt />
   </div>
 </template>
 
@@ -12,9 +12,11 @@ export default {
 
 <style scoped>
 .container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem 0px 0px 0px;
+  justify-content: center;
+  padding: 0rem 0px 0px 0px;
 }
 </style>

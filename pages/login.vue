@@ -12,12 +12,16 @@
 
     <button class="btn btn-primary">Login</button>
 
+    <p>
+      <nuxt-link active-class="active" exact class="nav-link" to="/">Home</nuxt-link>
+    </p>
+
   </form>
 </template>
 
 <script>
 export default {
-
+  layout: 'empty'
 }
 </script>
 

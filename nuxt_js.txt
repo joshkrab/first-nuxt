@@ -63,3 +63,4 @@ https://www.youtube.com/watch?v=b9XvKwQeLXE&list=PLZz-Gt4dd-LTeACXe7zLus9Bm_xlNA
 
   - Create login page
   - Create empty.vue layout
+  - Specify on the login.vue page in which layout to insert the page - layout: 'empty'
